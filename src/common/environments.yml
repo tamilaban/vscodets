@@ -1,0 +1,14 @@
+# ================================================================
+# Environment Information
+# ================================================================
+Environments:
+  - :
+    name: Pie1
+    image: Dev
+    imageId: 374
+    password: password01
+  - :
+    name: Pie2
+    image: Dev
+    imageId: 374
+    password: password01
