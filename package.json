@@ -1,7 +1,7 @@
 {
-	"name": "atomist-test",
-	"displayName": "atomist-test",
-	"description": "test extension for atomist ",
+	"name": "atomist-provision",
+	"displayName": "atomist-provision",
+	"description": "Provisions a new application in atomist(a teamcity pipleline for build and deployment pipleline will also be created) ",
 	"version": "0.0.1",
 	"engines": {
 		"vscode": "^1.46.0"
@@ -10,14 +10,14 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:atomist-test.helloWorld"
+		"onCommand:atomist.initializer.generate"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
 		"commands": [
 			{
-				"command": "atomist-test.helloWorld",
-				"title": "Hello World"
+				"command": "atomist.initializer.generate",
+				"title": "atomist-provision"
 			}
 		]
 	},
